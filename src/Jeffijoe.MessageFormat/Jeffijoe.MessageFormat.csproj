@@ -3,17 +3,18 @@
   <PropertyGroup>
     <PackageId>YellowDogMan.MessageFormat.net</PackageId>
     <Description>Fork of Jeff Hansen's messageformat.net. Used for ICU MessageFormat implementation for .NET.</Description>
-  	<GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
     <Copyright>Copyright (c) Jeff Hansen</Copyright>
-  	<Authors>Jeff Hansen, Yellow Dog Man Studios</Authors>
-  	<PackageTags>messageformat,messageformatter,xamarin,ui,messages,formatting,plural,pluralization,singular,select,strings,stringformat,format</PackageTags>
+    <Authors>Jeff Hansen, Yellow Dog Man Studios</Authors>
+    <PackageTags>messageformat,messageformatter,xamarin,ui,messages,formatting,plural,pluralization,singular,select,strings,stringformat,format</PackageTags>
     <RepositoryType>git</RepositoryType>
-  	<RepositoryUrl>https://github.com/Yellow-Dog-Man/messageformat.net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Yellow-Dog-Man/messageformat.net</RepositoryUrl>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageProjectURL>https://github.com/Yellow-Dog-Man/Mime-Detective</PackageProjectURL>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-  	<LangVersion>latest</LangVersion>
-  	<Nullable>enable</Nullable>
-  	<TargetFrameworks>net6.0;net7.0;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <TargetFrameworks>net6.0;net7.0;netstandard2.0;netstandard2.1</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -29,6 +30,7 @@
   </ItemGroup>
 
  <ItemGroup>
+    <None Include="src\Jeffijoe.MessageFormat\Images\icon.png" Pack="true" PackagePath="\"/>
     <None Include="LICENSE" />
     <None Include="README.md" />
   </ItemGroup>
