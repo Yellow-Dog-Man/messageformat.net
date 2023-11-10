@@ -9,7 +9,7 @@
     <PackageTags>messageformat,messageformatter,xamarin,ui,messages,formatting,plural,pluralization,singular,select,strings,stringformat,format</PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/Yellow-Dog-Man/messageformat.net</RepositoryUrl>
-    <PackageProjectURL>https://github.com/Yellow-Dog-Man/Mime-Detective</PackageProjectURL>
+    <PackageProjectURL>https://github.com/Yellow-Dog-Man/messageformat.net</PackageProjectURL>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
